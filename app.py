@@ -1,7 +1,7 @@
 
 
-def helloWorld();
+def helloWorld():
     return "Hello world"
 
-__if_name__="__main__"
+if __name__ == "__main__":
     print(helloWorld())
